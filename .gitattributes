@@ -1,0 +1,11 @@
+# 仓库内统一使用 LF 换行。
+# 理由：本项目在 Linux 上编译运行，shell 脚本若带 CRLF 会报
+# "bad interpreter: /bin/bash^M"，所以必须强制 LF。
+* text=auto eol=lf
+
+# shell 脚本明确用 LF
+*.sh text eol=lf
+
+# 二进制文件不做换行转换
+*.exe  binary
+*.db   binary

@@ -1,0 +1,23 @@
+# 编译产物
+build/
+hashdict
+hashdict.exe
+*.exe
+*.o
+*.d
+a.out
+*.out
+
+# 调试 / 崩溃产物
+core
+core.*
+vgcore.*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 运行时生成的用户数据（生词本、历史存在 ~/.hashdict，这里保险起见也忽略）
+favorites.txt
+history.txt
